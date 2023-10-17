@@ -1,0 +1,25 @@
+5 = _aa_bloat_and_coverage.w;
+float2 _pixellength5636 = rsqrt(vec2_ctor(dot(_skew.xz, _skew.xz), dot(_skew.yw, _skew.yw)));
+float4 _normalized_axis_dirs5637 = (_skew * _pixellength5636.xyxy);
+float2 _axiswidths5638 = (abs(_normalized_axis_dirs5637.xy) + abs(_normalized_axis_dirs5637.zw));
+float2 _aa_bloatradius5639 = ((_axiswidths5638 * _pixellength5636) * 0.5);
+float4 _radii_and_neighbors5640 = mul(_radii_selector, transpose(mat4_ctor_float4_float4_float4_float4(_radii_x, _radii_y, _radii_x.yxwz, _radii_y.wzyx)));
+float2 _radii5641 = _radii_and_neighbors5640.xy;
+float2 _neighbor_radii5642 = _radii_and_neighbors5640.zw;
+float _coverage_multiplier5643 = {1.0};
+if (any((_aa_bloatradius5639 > float2(1.0, 1.0))))
+{
+(_corner5632 = (max(abs(_corner5632), _aa_bloatradius5639) * sign(_corner5632)));
+(_coverage_multiplier5643 = (1.0 / (max(_aa_bloatradius5639.x, 1.0) * max(_aa_bloatradius5639.y, 1.0))));
+(_radii5641 = float2(0.0, 0.0));
+}
+float _coverage5644 = _aa_bloat_and_coverage.z;
+if (any((_radii5641 < (_aa_bloatradius5639 * 1.5))))
+{
+(_radii5641 = float2(0.0, 0.0));
+(_aa_bloat_direction5634 = sign(_corner5632));
+if ((_coverage5644 > 0.5))
+{
+(_aa_bloat_direction5634 = (-_aa_bloat_direction5634));
+}
+(_is_linear_coverage5635 = 1.

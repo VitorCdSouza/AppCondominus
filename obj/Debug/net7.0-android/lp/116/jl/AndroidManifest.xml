@@ -1,0 +1,7 @@
+amarin.Messaging.IDB.Local.IDBLocalAgent Information: 0 : Registering message handler for message type: Xamarin.Messaging.IDB.Contracts.ConfigureIDBLocalMessage: 07/02/2023 01:49:06Z
+    DateTime=2023-07-02T01:49:06.5217375Z: 07/02/2023 01:49:06Z
+Xamarin.Messaging.IDB.Local.IDBLocalAgent Information: 0 : Registering message handler for message type: Xamarin.Messaging.IDB.Contracts.DownloadDeveloperDiskImagesMessage: 07/02/2023 01:49:06Z
+    DateTime=2023-07-02T01:49:06.5377911Z: 07/02/2023 01:49:06Z
+Xamarin.Messaging.IDB.Local.IDBLocalAgent Information: 0 : Registering message handler for message type: Xamarin.Messaging.IDB.Contracts.GetMobileDeviceConfigurationMessage: 07/02/2023 01:49:06Z
+    DateTime=2023-07-02T01:49:06.5585725Z: 07/02/2023 01:49:06Z
+Xamarin.Messaging.IDB.Local.IDBLocalAgent Information: 0 :
