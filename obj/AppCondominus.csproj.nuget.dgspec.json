@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Arquivos\\TCC Skyline\\AppCondominus\\AppCondominus.csproj": {}
+    "E:\\Organizados\\Etec\\3 Bimestre\\PAM\\AppCondominus\\AppCondominus.csproj": {}
   },
   "projects": {
-    "C:\\Arquivos\\TCC Skyline\\AppCondominus\\AppCondominus.csproj": {
+    "E:\\Organizados\\Etec\\3 Bimestre\\PAM\\AppCondominus\\AppCondominus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Arquivos\\TCC Skyline\\AppCondominus\\AppCondominus.csproj",
+        "projectUniqueName": "E:\\Organizados\\Etec\\3 Bimestre\\PAM\\AppCondominus\\AppCondominus.csproj",
         "projectName": "AppCondominus",
-        "projectPath": "C:\\Arquivos\\TCC Skyline\\AppCondominus\\AppCondominus.csproj",
-        "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "C:\\Arquivos\\TCC Skyline\\AppCondominus\\obj\\",
+        "projectPath": "E:\\Organizados\\Etec\\3 Bimestre\\PAM\\AppCondominus\\AppCondominus.csproj",
+        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+        "outputPath": "E:\\Organizados\\Etec\\3 Bimestre\\PAM\\AppCondominus\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -174,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -220,12 +220,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64",
-              "version": "[7.0.8, 7.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -243,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -290,12 +284,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64",
-              "version": "[7.0.8, 7.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.MacCatalyst": {
               "privateAssets": "all"
@@ -313,7 +301,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -378,11 +366,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.8, 7.0.8]"
+              "version": "[7.0.7, 7.0.7]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.8, 7.0.8]"
+              "version": "[7.0.7, 7.0.7]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -390,7 +378,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.8, 7.0.8]"
+              "version": "[7.0.7, 7.0.7]"
             }
           ],
           "frameworkReferences": {
@@ -410,7 +398,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
